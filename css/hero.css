@@ -1,0 +1,54 @@
+.hero {
+  background-color: #2E2F42;
+  padding-top: 188px;
+  padding-bottom: 188px;
+}
+
+.hero-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 1158px;
+  height: 224px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  gap: 48px;
+  margin: 0 auto;
+}
+
+
+.hero-title {
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+  color: #FFFFFF;
+  max-width: 496px;
+  width: 496px;
+  height: 120px;
+
+}
+
+.order-btn {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #FFFFFF;
+  background-color: #4D5AE5;
+  cursor: pointer;
+  width: 169px;
+  height: 56px;
+  border-radius: 4px;
+  padding: 16px 32px;
+  border: none;
+}
+/* Стили наведения и фокуса (По фидбеку: добавлена запятая и цвет #404bbf) */
+.order-btn:hover,
+.order-btn:focus {
+  background-color: #404BBF;
+}

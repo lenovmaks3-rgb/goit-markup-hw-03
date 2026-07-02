@@ -1,0 +1,89 @@
+.header {
+  background-color: #FFFFFF;
+  
+}
+.container-header {
+  display: flex;
+  align-items: center;
+  width: 1158px;
+  margin: 0 141px;
+}
+.nav {
+  margin: 0 0 0 40px;
+}
+.nav-list {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  height: 72px;
+  width: 253px;
+  max-width: 253px;
+  padding: 0;
+}
+
+.contacts {
+  display: flex;
+  align-items: center;
+  font-style: normal;
+  margin-left:auto;
+}
+
+.contacts-list {
+  display: flex;
+  align-items: center;
+
+  gap: 40px;
+}
+
+.nav-list,
+.contacts-list {
+  list-style: none;
+}
+
+
+
+
+.logo {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.33;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #4D5AE5;
+}
+
+.logo-span {
+  color: #2E2F42;
+}
+
+
+.nav-link {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #2E2F42;
+  text-decoration: none;
+}
+
+/* Ссылки контактов (Почта и телефон) */
+.contact-link {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+  text-decoration: none;
+}
+
+/* Интерактивные состояния ховера и фокуса */
+.nav-link:hover,
+.nav-link:focus,
+.contact-link:hover,
+.contact-link:focus {
+  color: #404BBF;
+}

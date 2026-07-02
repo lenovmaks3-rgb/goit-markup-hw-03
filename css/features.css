@@ -1,0 +1,53 @@
+.features {
+padding: 120px 0px;
+}
+
+.section-title{
+  display:none;
+}
+.features-container {
+  background-color: #FFFFFF;
+  width: 1158px;
+  height: 104px;
+  padding: 0 15px;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+.features-list {
+  width: 1158px;
+  max-width: 1158px;
+  height: 104px;
+  padding: 0px 15px;
+  display: flex;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.features-block{
+  max-width: 264px;
+  width: 264px;
+  height: 104px;
+  gap: 8px;
+}
+
+/* Заголовки преимуществ (Strategy, Punctuality и т.д.) */
+.features-subtitle {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2E2F42;
+}
+
+/* Текст описания преимуществ */
+.features-text {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}

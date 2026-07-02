@@ -1,0 +1,35 @@
+.footer {
+  padding: 100px 0px;
+  background-color: #2E2F42; /* Темно-синий фон Navy Blue */
+}
+.footer-container {
+ padding: 0 15px;
+ margin: 0 auto;
+ max-width: 1158px;
+}
+/* Оформление ссылки-логотипа в футере */
+.footer .logo {
+  /* Дублируем базовые стили логотипа, чтобы они не слетели */
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.33;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #4D5AE5;            /* Синий цвет для "Web" */
+}
+
+/*слово "studio" в футере в светлый цвет */
+.footer .logo-span {
+  color: #F4F4FD;
+}
+.text-footer {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #F4F4FD;
+  width: 264px;
+}

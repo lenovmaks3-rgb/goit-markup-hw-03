@@ -1,0 +1,9 @@
+/* 1. Базовые и общие стили */
+@import url("./common.css");
+/* 2. Компоненты и секции страницы */
+@import url("./header.css");
+@import url("./hero.css");
+@import url("./features.css");
+@import url("./team.css");
+@import url("./portfolio.css");
+@import url("./footer.css");

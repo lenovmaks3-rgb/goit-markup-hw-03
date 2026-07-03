@@ -4,17 +4,14 @@ padding: 120px 0px;
 
 .features-container {
   background-color: #FFFFFF;
-  width: 1158px;
   height: 104px;
   padding: 0 15px;
   justify-content: space-between;
   margin: 0 auto;
 }
 .features-list {
-  width: 1158px;
   max-width: 1158px;
   height: 104px;
-  padding: 0px 15px;
   display: flex;
   list-style: none;
   display: flex;
@@ -25,7 +22,6 @@ padding: 120px 0px;
 .features-block{
   max-width: 264px;
   width: 264px;
-  height: 104px;
   gap: 8px;
 }
 
@@ -37,6 +33,7 @@ padding: 120px 0px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2E2F42;
+  padding: 0 0 8px 0;
 }
 
 /* Текст описания преимуществ */

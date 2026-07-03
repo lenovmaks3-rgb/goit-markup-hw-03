@@ -2,11 +2,6 @@
   padding: 100px 0px;
   background-color: #2E2F42; /* Темно-синий фон Navy Blue */
 }
-.footer-container {
- padding: 0 15px;
- margin: 0 auto;
- max-width: 1158px;
-}
 /* Оформление ссылки-логотипа в футере */
 .logo-footer {
   /* Дублируем базовые стили логотипа, чтобы они не слетели */

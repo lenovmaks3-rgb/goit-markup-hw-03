@@ -40,7 +40,6 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 264px;
   padding: 32px 16px    
 }
 /* Имя сотрудника (типографика и цвет) */
@@ -51,8 +50,6 @@
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2E2F42;
-  width: 232px;
-  height: 24px;
 }
 /* Должность (типографика и цвет) */
 .team-role {
@@ -62,6 +59,4 @@
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
-   width: 232px;
-  height: 24px;
 }

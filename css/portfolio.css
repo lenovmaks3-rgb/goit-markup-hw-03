@@ -33,7 +33,14 @@
   border: 1px solid #E7E9FC;
   border-top: none;
   padding: 32px 16px;
-  gap: 8px;
+}
+.portfolio-type {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
 }
 .portfolio-name {
   font-family: 'Roboto', sans-serif;
@@ -64,12 +71,4 @@
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2E2F42;
-}
-.portfolio-type {
-  font-family: 'Roboto', sans-serif;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #434455;
 }

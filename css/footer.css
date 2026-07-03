@@ -8,7 +8,7 @@
  max-width: 1158px;
 }
 /* Оформление ссылки-логотипа в футере */
-.footer .logo {
+.logo-footer {
   /* Дублируем базовые стили логотипа, чтобы они не слетели */
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
@@ -17,7 +17,8 @@
   letter-spacing: 0.03em;
   text-transform: uppercase;
   text-decoration: none;
-  color: #4D5AE5;            /* Синий цвет для "Web" */
+  color: #4D5AE5;
+  margin-bottom: 16px;
 }
 
 /*слово "studio" в футере в светлый цвет */

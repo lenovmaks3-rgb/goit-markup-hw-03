@@ -1,24 +1,25 @@
 .header {
   background-color: #FFFFFF;
-  
+  border-bottom: 1px solid #e7e9fc
 }
 .container-header {
   display: flex;
   align-items: center;
-  width: 1158px;
   margin: 0 141px;
 }
 .nav {
-  margin: 0 0 0 40px;
+  margin: 0 0 0 76px;
 }
 .nav-list {
   display: flex;
   align-items: center;
   gap: 40px;
   height: 72px;
-  width: 253px;
-  max-width: 253px;
   padding: 0;
+}
+.nav-link{
+  padding: 24px 0;
+  display: block;
 }
 
 .contacts {

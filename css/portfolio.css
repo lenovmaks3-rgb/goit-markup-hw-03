@@ -14,10 +14,8 @@
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  width: 1128px;
-  height: 888px;
-  row-gap: 24px;
-  column-gap: 48px;
+  row-gap: 48px;
+  column-gap: 24px;
   padding: 0px;
 }
 .portfolio-item {

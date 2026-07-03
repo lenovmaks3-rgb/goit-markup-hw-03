@@ -4,25 +4,23 @@ padding: 120px 0px;
 
 .features-container {
   background-color: #FFFFFF;
-  height: 104px;
   padding: 0 15px;
   justify-content: space-between;
   margin: 0 auto;
 }
 .features-list {
   max-width: 1158px;
-  height: 104px;
   display: flex;
   list-style: none;
   display: flex;
   justify-content: space-between;
+  gap: 24px;
 }
 
 
 .features-block{
   max-width: 264px;
   width: 264px;
-  gap: 8px;
 }
 
 /* Заголовки преимуществ (Strategy, Punctuality и т.д.) */
